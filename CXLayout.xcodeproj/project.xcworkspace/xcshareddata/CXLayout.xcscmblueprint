@@ -1,0 +1,28 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "5840D2F35F5829188941A3AC2B300F73EFA9EA3E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "5840D2F35F5829188941A3AC2B300F73EFA9EA3E" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "CA1A941E-C313-4A08-A90E-CB6C2C2EEC27",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "5840D2F35F5829188941A3AC2B300F73EFA9EA3E" : "CXLayout\/CXLayout\/CXLayout\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "CXLayout",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "CXLayout.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:chuxiaojiajia\/CXLayout.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5840D2F35F5829188941A3AC2B300F73EFA9EA3E"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:chuxiaojiajia\/CXLayout.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5840D2F35F5829188941A3AC2B300F73EFA9EA3E"
+    }
+  ]
+}
