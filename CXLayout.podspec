@@ -8,6 +8,6 @@ s.author   = { 'xiao chu' => '1402778172@qq.com' }
 s.source   = { :git => 'https://github.com/chuxiaojiajia/CXLayout.git', :tag => "1.0" } 
 s.platform = :ios
 s.source_files = 'CXLayout/*.{h,m}'
-s.framework = 'UIKit'
+s.framework = 'Foundation', 'UIKit'
 s.requires_arc = true
 end
