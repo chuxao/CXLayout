@@ -7,18 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3A201E1A1E4472F3002F3BCC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A201E191E4472F3002F3BCC /* main.m */; };
-		3A201E1D1E4472F3002F3BCC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A201E1C1E4472F3002F3BCC /* AppDelegate.m */; };
-		3A201E201E4472F3002F3BCC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A201E1F1E4472F3002F3BCC /* ViewController.m */; };
-		3A201E231E4472F3002F3BCC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A201E211E4472F3002F3BCC /* Main.storyboard */; };
-		3A201E251E4472F3002F3BCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A201E241E4472F3002F3BCC /* Assets.xcassets */; };
-		3A201E281E4472F3002F3BCC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A201E261E4472F3002F3BCC /* LaunchScreen.storyboard */; };
 		3A201E331E4472F3002F3BCC /* CXLayoutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A201E321E4472F3002F3BCC /* CXLayoutTests.m */; };
 		3A201E3E1E4472F3002F3BCC /* CXLayoutUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A201E3D1E4472F3002F3BCC /* CXLayoutUITests.m */; };
-		3A201E561E447338002F3BCC /* CXConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A201E4D1E447338002F3BCC /* CXConstraint.m */; };
-		3A201E571E447338002F3BCC /* CXLayoutManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A201E511E447338002F3BCC /* CXLayoutManager.m */; };
-		3A201E581E447338002F3BCC /* CXViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A201E531E447338002F3BCC /* CXViewAttribute.m */; };
-		3A201E591E447338002F3BCC /* UIView+CXLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A201E551E447338002F3BCC /* UIView+CXLayout.m */; };
+		3A201EFC1E45758C002F3BCC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A201EF21E45758C002F3BCC /* AppDelegate.m */; };
+		3A201EFD1E45758C002F3BCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A201EF31E45758C002F3BCC /* Assets.xcassets */; };
+		3A201EFE1E45758C002F3BCC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A201EF41E45758C002F3BCC /* LaunchScreen.storyboard */; };
+		3A201EFF1E45758C002F3BCC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A201EF61E45758C002F3BCC /* Main.storyboard */; };
+		3A201F001E45758C002F3BCC /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3A201EF81E45758C002F3BCC /* Info.plist */; };
+		3A201F011E45758C002F3BCC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A201EF91E45758C002F3BCC /* main.m */; };
+		3A201F021E45758C002F3BCC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A201EFB1E45758C002F3BCC /* ViewController.m */; };
+		3A201F0E1E4575CE002F3BCC /* CXConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A201F051E4575CE002F3BCC /* CXConstraint.m */; };
+		3A201F0F1E4575CE002F3BCC /* CXLayoutManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A201F091E4575CE002F3BCC /* CXLayoutManager.m */; };
+		3A201F101E4575CE002F3BCC /* CXViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A201F0B1E4575CE002F3BCC /* CXViewAttribute.m */; };
+		3A201F111E4575CE002F3BCC /* UIView+CXLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A201F0D1E4575CE002F3BCC /* UIView+CXLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,31 +41,31 @@
 
 /* Begin PBXFileReference section */
 		3A201E151E4472F3002F3BCC /* CXLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CXLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		3A201E191E4472F3002F3BCC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		3A201E1B1E4472F3002F3BCC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		3A201E1C1E4472F3002F3BCC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3A201E1E1E4472F3002F3BCC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3A201E1F1E4472F3002F3BCC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		3A201E221E4472F3002F3BCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3A201E241E4472F3002F3BCC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		3A201E271E4472F3002F3BCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		3A201E291E4472F3002F3BCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3A201E2E1E4472F3002F3BCC /* CXLayoutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CXLayoutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A201E321E4472F3002F3BCC /* CXLayoutTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXLayoutTests.m; sourceTree = "<group>"; };
 		3A201E341E4472F3002F3BCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3A201E391E4472F3002F3BCC /* CXLayoutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CXLayoutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A201E3D1E4472F3002F3BCC /* CXLayoutUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXLayoutUITests.m; sourceTree = "<group>"; };
 		3A201E3F1E4472F3002F3BCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3A201E4C1E447338002F3BCC /* CXConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXConstraint.h; sourceTree = "<group>"; };
-		3A201E4D1E447338002F3BCC /* CXConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXConstraint.m; sourceTree = "<group>"; };
-		3A201E4E1E447338002F3BCC /* CXLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXLayout.h; sourceTree = "<group>"; };
-		3A201E4F1E447338002F3BCC /* CXLayoutCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXLayoutCommon.h; sourceTree = "<group>"; };
-		3A201E501E447338002F3BCC /* CXLayoutManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXLayoutManager.h; sourceTree = "<group>"; };
-		3A201E511E447338002F3BCC /* CXLayoutManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXLayoutManager.m; sourceTree = "<group>"; };
-		3A201E521E447338002F3BCC /* CXViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXViewAttribute.h; sourceTree = "<group>"; };
-		3A201E531E447338002F3BCC /* CXViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXViewAttribute.m; sourceTree = "<group>"; };
-		3A201E541E447338002F3BCC /* UIView+CXLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CXLayout.h"; sourceTree = "<group>"; };
-		3A201E551E447338002F3BCC /* UIView+CXLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CXLayout.m"; sourceTree = "<group>"; };
+		3A201EF11E45758C002F3BCC /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3A201EF21E45758C002F3BCC /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3A201EF31E45758C002F3BCC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3A201EF51E45758C002F3BCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3A201EF71E45758C002F3BCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3A201EF81E45758C002F3BCC /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A201EF91E45758C002F3BCC /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3A201EFA1E45758C002F3BCC /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3A201EFB1E45758C002F3BCC /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3A201F041E4575CE002F3BCC /* CXConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXConstraint.h; sourceTree = "<group>"; };
+		3A201F051E4575CE002F3BCC /* CXConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXConstraint.m; sourceTree = "<group>"; };
+		3A201F061E4575CE002F3BCC /* CXLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXLayout.h; sourceTree = "<group>"; };
+		3A201F071E4575CE002F3BCC /* CXLayoutCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXLayoutCommon.h; sourceTree = "<group>"; };
+		3A201F081E4575CE002F3BCC /* CXLayoutManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXLayoutManager.h; sourceTree = "<group>"; };
+		3A201F091E4575CE002F3BCC /* CXLayoutManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXLayoutManager.m; sourceTree = "<group>"; };
+		3A201F0A1E4575CE002F3BCC /* CXViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXViewAttribute.h; sourceTree = "<group>"; };
+		3A201F0B1E4575CE002F3BCC /* CXViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXViewAttribute.m; sourceTree = "<group>"; };
+		3A201F0C1E4575CE002F3BCC /* UIView+CXLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CXLayout.h"; sourceTree = "<group>"; };
+		3A201F0D1E4575CE002F3BCC /* UIView+CXLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CXLayout.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +96,8 @@
 		3A201E0C1E4472F3002F3BCC = {
 			isa = PBXGroup;
 			children = (
-				3A201E171E4472F3002F3BCC /* CXLayout */,
+				3A201EF01E45758C002F3BCC /* CXLayout iOS Examples */,
+				3A201F031E4575CE002F3BCC /* CXLayout */,
 				3A201E311E4472F3002F3BCC /* CXLayoutTests */,
 				3A201E3C1E4472F3002F3BCC /* CXLayoutUITests */,
 				3A201E161E4472F3002F3BCC /* Products */,
@@ -110,24 +112,6 @@
 				3A201E391E4472F3002F3BCC /* CXLayoutUITests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		3A201E171E4472F3002F3BCC /* CXLayout */ = {
-			isa = PBXGroup;
-			children = (
-				3A201E5A1E447349002F3BCC /* CXLayout iOS Examples */,
-				3A201E4B1E447338002F3BCC /* CXLayout */,
-				3A201E181E4472F3002F3BCC /* Supporting Files */,
-			);
-			path = CXLayout;
-			sourceTree = "<group>";
-		};
-		3A201E181E4472F3002F3BCC /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				3A201E191E4472F3002F3BCC /* main.m */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		3A201E311E4472F3002F3BCC /* CXLayoutTests */ = {
@@ -148,36 +132,37 @@
 			path = CXLayoutUITests;
 			sourceTree = "<group>";
 		};
-		3A201E4B1E447338002F3BCC /* CXLayout */ = {
+		3A201EF01E45758C002F3BCC /* CXLayout iOS Examples */ = {
 			isa = PBXGroup;
 			children = (
-				3A201E4C1E447338002F3BCC /* CXConstraint.h */,
-				3A201E4D1E447338002F3BCC /* CXConstraint.m */,
-				3A201E4E1E447338002F3BCC /* CXLayout.h */,
-				3A201E4F1E447338002F3BCC /* CXLayoutCommon.h */,
-				3A201E501E447338002F3BCC /* CXLayoutManager.h */,
-				3A201E511E447338002F3BCC /* CXLayoutManager.m */,
-				3A201E521E447338002F3BCC /* CXViewAttribute.h */,
-				3A201E531E447338002F3BCC /* CXViewAttribute.m */,
-				3A201E541E447338002F3BCC /* UIView+CXLayout.h */,
-				3A201E551E447338002F3BCC /* UIView+CXLayout.m */,
+				3A201EF11E45758C002F3BCC /* AppDelegate.h */,
+				3A201EF21E45758C002F3BCC /* AppDelegate.m */,
+				3A201EF31E45758C002F3BCC /* Assets.xcassets */,
+				3A201EF41E45758C002F3BCC /* LaunchScreen.storyboard */,
+				3A201EF61E45758C002F3BCC /* Main.storyboard */,
+				3A201EF81E45758C002F3BCC /* Info.plist */,
+				3A201EF91E45758C002F3BCC /* main.m */,
+				3A201EFA1E45758C002F3BCC /* ViewController.h */,
+				3A201EFB1E45758C002F3BCC /* ViewController.m */,
 			);
-			path = CXLayout;
+			path = "CXLayout iOS Examples";
 			sourceTree = "<group>";
 		};
-		3A201E5A1E447349002F3BCC /* CXLayout iOS Examples */ = {
+		3A201F031E4575CE002F3BCC /* CXLayout */ = {
 			isa = PBXGroup;
 			children = (
-				3A201E1B1E4472F3002F3BCC /* AppDelegate.h */,
-				3A201E1C1E4472F3002F3BCC /* AppDelegate.m */,
-				3A201E1E1E4472F3002F3BCC /* ViewController.h */,
-				3A201E1F1E4472F3002F3BCC /* ViewController.m */,
-				3A201E211E4472F3002F3BCC /* Main.storyboard */,
-				3A201E241E4472F3002F3BCC /* Assets.xcassets */,
-				3A201E261E4472F3002F3BCC /* LaunchScreen.storyboard */,
-				3A201E291E4472F3002F3BCC /* Info.plist */,
+				3A201F041E4575CE002F3BCC /* CXConstraint.h */,
+				3A201F051E4575CE002F3BCC /* CXConstraint.m */,
+				3A201F061E4575CE002F3BCC /* CXLayout.h */,
+				3A201F071E4575CE002F3BCC /* CXLayoutCommon.h */,
+				3A201F081E4575CE002F3BCC /* CXLayoutManager.h */,
+				3A201F091E4575CE002F3BCC /* CXLayoutManager.m */,
+				3A201F0A1E4575CE002F3BCC /* CXViewAttribute.h */,
+				3A201F0B1E4575CE002F3BCC /* CXViewAttribute.m */,
+				3A201F0C1E4575CE002F3BCC /* UIView+CXLayout.h */,
+				3A201F0D1E4575CE002F3BCC /* UIView+CXLayout.m */,
 			);
-			name = "CXLayout iOS Examples";
+			path = CXLayout;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -289,9 +274,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A201E281E4472F3002F3BCC /* LaunchScreen.storyboard in Resources */,
-				3A201E251E4472F3002F3BCC /* Assets.xcassets in Resources */,
-				3A201E231E4472F3002F3BCC /* Main.storyboard in Resources */,
+				3A201F001E45758C002F3BCC /* Info.plist in Resources */,
+				3A201EFF1E45758C002F3BCC /* Main.storyboard in Resources */,
+				3A201EFD1E45758C002F3BCC /* Assets.xcassets in Resources */,
+				3A201EFE1E45758C002F3BCC /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,13 +302,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A201E571E447338002F3BCC /* CXLayoutManager.m in Sources */,
-				3A201E201E4472F3002F3BCC /* ViewController.m in Sources */,
-				3A201E591E447338002F3BCC /* UIView+CXLayout.m in Sources */,
-				3A201E561E447338002F3BCC /* CXConstraint.m in Sources */,
-				3A201E1D1E4472F3002F3BCC /* AppDelegate.m in Sources */,
-				3A201E581E447338002F3BCC /* CXViewAttribute.m in Sources */,
-				3A201E1A1E4472F3002F3BCC /* main.m in Sources */,
+				3A201F0F1E4575CE002F3BCC /* CXLayoutManager.m in Sources */,
+				3A201F021E45758C002F3BCC /* ViewController.m in Sources */,
+				3A201F111E4575CE002F3BCC /* UIView+CXLayout.m in Sources */,
+				3A201F0E1E4575CE002F3BCC /* CXConstraint.m in Sources */,
+				3A201F011E45758C002F3BCC /* main.m in Sources */,
+				3A201F101E4575CE002F3BCC /* CXViewAttribute.m in Sources */,
+				3A201EFC1E45758C002F3BCC /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,20 +344,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		3A201E211E4472F3002F3BCC /* Main.storyboard */ = {
+		3A201EF41E45758C002F3BCC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				3A201E221E4472F3002F3BCC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		3A201E261E4472F3002F3BCC /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3A201E271E4472F3002F3BCC /* Base */,
+				3A201EF51E45758C002F3BCC /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		3A201EF61E45758C002F3BCC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A201EF71E45758C002F3BCC /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -472,7 +458,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 56W7P8272X;
-				INFOPLIST_FILE = CXLayout/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/CXLayout iOS Examples/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.pingan.CXLayout;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -484,7 +470,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 56W7P8272X;
-				INFOPLIST_FILE = CXLayout/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/CXLayout iOS Examples/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.pingan.CXLayout;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -560,6 +546,7 @@
 				3A201E441E4472F3002F3BCC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3A201E451E4472F3002F3BCC /* Build configuration list for PBXNativeTarget "CXLayoutTests" */ = {
 			isa = XCConfigurationList;
@@ -568,6 +555,7 @@
 				3A201E471E4472F3002F3BCC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3A201E481E4472F3002F3BCC /* Build configuration list for PBXNativeTarget "CXLayoutUITests" */ = {
 			isa = XCConfigurationList;
@@ -576,6 +564,7 @@
 				3A201E4A1E4472F3002F3BCC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
