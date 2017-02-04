@@ -2,8 +2,8 @@
 //  UIView+CXLayout.m
 //  CXLayout
 //
-//  Created by chuxiao on 2017/1/14.
-//  Copyright © 2017年 chuxiao. All rights reserved.
+//  Created by chuxiao on 2016/1/14.
+//  Copyright © 2016年 chuxiao. All rights reserved.
 //
 
 #import "UIView+CXLayout.h"
