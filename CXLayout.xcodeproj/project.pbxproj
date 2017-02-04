@@ -13,7 +13,6 @@
 		3A201EFD1E45758C002F3BCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A201EF31E45758C002F3BCC /* Assets.xcassets */; };
 		3A201EFE1E45758C002F3BCC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A201EF41E45758C002F3BCC /* LaunchScreen.storyboard */; };
 		3A201EFF1E45758C002F3BCC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A201EF61E45758C002F3BCC /* Main.storyboard */; };
-		3A201F001E45758C002F3BCC /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3A201EF81E45758C002F3BCC /* Info.plist */; };
 		3A201F011E45758C002F3BCC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A201EF91E45758C002F3BCC /* main.m */; };
 		3A201F021E45758C002F3BCC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A201EFB1E45758C002F3BCC /* ViewController.m */; };
 		3A201F0E1E4575CE002F3BCC /* CXConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A201F051E4575CE002F3BCC /* CXConstraint.m */; };
@@ -137,13 +136,13 @@
 			children = (
 				3A201EF11E45758C002F3BCC /* AppDelegate.h */,
 				3A201EF21E45758C002F3BCC /* AppDelegate.m */,
+				3A201EFA1E45758C002F3BCC /* ViewController.h */,
+				3A201EFB1E45758C002F3BCC /* ViewController.m */,
 				3A201EF31E45758C002F3BCC /* Assets.xcassets */,
 				3A201EF41E45758C002F3BCC /* LaunchScreen.storyboard */,
 				3A201EF61E45758C002F3BCC /* Main.storyboard */,
 				3A201EF81E45758C002F3BCC /* Info.plist */,
 				3A201EF91E45758C002F3BCC /* main.m */,
-				3A201EFA1E45758C002F3BCC /* ViewController.h */,
-				3A201EFB1E45758C002F3BCC /* ViewController.m */,
 			);
 			path = "CXLayout iOS Examples";
 			sourceTree = "<group>";
@@ -274,7 +273,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A201F001E45758C002F3BCC /* Info.plist in Resources */,
 				3A201EFF1E45758C002F3BCC /* Main.storyboard in Resources */,
 				3A201EFD1E45758C002F3BCC /* Assets.xcassets in Resources */,
 				3A201EFE1E45758C002F3BCC /* LaunchScreen.storyboard in Resources */,
