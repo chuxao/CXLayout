@@ -19,6 +19,7 @@
 		3A201F0F1E4575CE002F3BCC /* CXLayoutManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A201F091E4575CE002F3BCC /* CXLayoutManager.m */; };
 		3A201F101E4575CE002F3BCC /* CXViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A201F0B1E4575CE002F3BCC /* CXViewAttribute.m */; };
 		3A201F111E4575CE002F3BCC /* UIView+CXLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A201F0D1E4575CE002F3BCC /* UIView+CXLayout.m */; };
+		3A201F231E45D89A002F3BCC /* CXLayout.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3A201F221E45D89A002F3BCC /* CXLayout.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,7 @@
 		3A201F0B1E4575CE002F3BCC /* CXViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXViewAttribute.m; sourceTree = "<group>"; };
 		3A201F0C1E4575CE002F3BCC /* UIView+CXLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CXLayout.h"; sourceTree = "<group>"; };
 		3A201F0D1E4575CE002F3BCC /* UIView+CXLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CXLayout.m"; sourceTree = "<group>"; };
+		3A201F221E45D89A002F3BCC /* CXLayout.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = CXLayout.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +145,7 @@
 				3A201EF61E45758C002F3BCC /* Main.storyboard */,
 				3A201EF81E45758C002F3BCC /* Info.plist */,
 				3A201EF91E45758C002F3BCC /* main.m */,
+				3A201F221E45D89A002F3BCC /* CXLayout.gif */,
 			);
 			path = "CXLayout iOS Examples";
 			sourceTree = "<group>";
@@ -274,6 +277,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A201EFF1E45758C002F3BCC /* Main.storyboard in Resources */,
+				3A201F231E45D89A002F3BCC /* CXLayout.gif in Resources */,
 				3A201EFD1E45758C002F3BCC /* Assets.xcassets in Resources */,
 				3A201EFE1E45758C002F3BCC /* LaunchScreen.storyboard in Resources */,
 			);
