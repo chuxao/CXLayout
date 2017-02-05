@@ -33,7 +33,7 @@
         mgr.equal.height(nil,1,44);
         mgr.equal.center(CGPointMake(0, - ScreenHeight/2 + 80));
 ```
-        总之随心可以“随心所欲”，尽情体验编程的无限魅力！
+        总之可以“随心所欲”，尽情体验编程的无限魅力！
         
         受制于水平有限，如果您有觉得需要改进的地方或有任何问题，欢迎提出Issues，如果您感觉不错也欢迎Star。
         
