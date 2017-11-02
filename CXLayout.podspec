@@ -3,7 +3,9 @@ Pod::Spec.new do |s|
  s.version  = '1.0'
  s.license  = { :type => "MIT", :file => "LICENSE" }
  s.summary  = 'Harness the power of Auto Layout NSLayoutConstraints with a simplified, chainable and expressive syntax.'
- s.description  = 'Harness the power of Auto Layout NSLayoutConstraints with a simplified, chainable and expressive syntax.'
+ s.description  = <<-DESC
+                                      Harness the power of Auto Layout NSLayoutConstraints with a simplified, chainable and expressive syntax.
+                   DESC
  s.homepage = 'https://github.com/chuxiaojiajia/CXLayout'
  s.author   = { 'xiao chu' => '1402778172@qq.com' }
  s.source   = { :git => 'https://github.com/chuxiaojiajia/CXLayout.git', :tag => "1.0" }
