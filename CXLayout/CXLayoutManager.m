@@ -17,7 +17,7 @@
 @property (nonatomic, strong) NSMutableArray *constraints;  //存储添加到View上的约束
 @property (nonatomic, assign) NSLayoutRelation relation;
 
-#pragma <#arguments#>
+#pragma mark -
 @property (nonatomic, assign) CGSize CX_size;
 @property (nonatomic, assign) CGPoint CX_point;
 @property (nonatomic, assign) CGPoint CX_origin;
