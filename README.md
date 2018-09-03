@@ -1,7 +1,7 @@
 # CXLayout
 
 #### 类似Masonry的自动布局，但比Masonry用起来更加简单，只需要一行代码就能搞定约束。拥有添加约束、更新约束等常用功能。
-![](https://github.com/chuxiaojiajia/CXLayout/raw/master/CXLayout iOS Examples/CXLayout.gif)  
+![](https://raw.githubusercontent.com/chuxiaojiajia/CXLayout/master/CXLayout%20iOS%20Examples/CXLayout.gif)  
 ### 使用方法：
 ##### Step 1:添加控件 
 ```
