@@ -8,7 +8,6 @@
     #import "CXLayout.h"
     
     UIView *greenView = UIView.new;
-    greenView.backgroundColor = [UIColor greenColor];
     [self.view addSubview:greenView];
 ```    
 ##### Step 2:添加约束 
